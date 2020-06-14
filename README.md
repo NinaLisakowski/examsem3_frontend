@@ -1,8 +1,8 @@
 # Frontend
 
 ## Backend
-This is the backend that is supposed to be used with this Frontend.  
-https://github.com/NinaLisakowski/examsem3_backend
+- This is the backend that is supposed to be used with this Frontend.  
+  https://github.com/NinaLisakowski/examsem3_backend
 
 ## The deployed frontend
 
