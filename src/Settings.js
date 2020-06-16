@@ -27,6 +27,11 @@ function URLS() {
 		return URL;
 	}
 
-	return { Login, User, Admin, AdminData, Dog, Cat };
+	function AllRecipes() {
+		const URL = "https://bluegoldfish.dk/examsem3/api/recipes/all";
+		return URL;
+	}
+
+	return { Login, User, Admin, AdminData, Dog, Cat, AllRecipes };
 }
 export default new URLS();

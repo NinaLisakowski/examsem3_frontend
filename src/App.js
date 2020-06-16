@@ -5,6 +5,8 @@ import { Home } from "./Home";
 import { Login } from "./Login";
 import { User } from "./User";
 import { Admin } from "./Admin";
+import { Search } from "./Search";
+
 import "./App.css";
 
 export default function App() {
@@ -30,6 +32,9 @@ export default function App() {
 					</Route>
 					<Route exact path="/user">
 						<User />
+					</Route>
+					<Route exact path="/recipe">
+						<Search />
 					</Route>
 					<Route exact path="/admin">
 						<Admin />
